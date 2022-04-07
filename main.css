@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+  }
+  section{
+    padding:2rem 9%;
+  }
+
+  .Easter{
+    background:url(pics.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .Easter .Count{
+    max-width: 50rem;
+  }
+  
+  .Easter .Count .title{
+    font-size: 4rem;
+    color:var(--black);
+  }
+  
+  .Easter .Count p{
+    font-size: 1.7rem;
+    padding:1rem 0;
+    color:#333;
+  }
+  
+  .Easter .Count .count-down{
+    display: flex;
+    gap:1rem;
+    padding:.5rem 0;
+  }
+  
+  .Easter .Count .count-down .box{
+    width:9rem;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.3);
+  }
+  
+  .Easter .Count .count-down .box h3{
+    color:var(--black);
+    background:#fff;
+    height: 7rem;
+    line-height: 7rem;
+    width:100%;
+    font-size: 5rem;
+  }
+  
+  .Easter .Count .count-down .box span{
+    display: block;
+    background:var(--black);
+    color:#333;
+    width:100%;
+    padding:.5rem;
+    font-size: 2rem;
+  }
